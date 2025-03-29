@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRUD Node.js + SQLite</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>CRUD Node.js + SQLite</h1>
+
+            <!-- Form Tambah/Update -->
+            <form id="item-form">
+                <input type="hidden" id="item-id">
+                <input type="text" id="item-name" placeholder="Nama Item" required>
+                <textarea id="item-description" placeholder="Deskripsi Item" required></textarea>
+                <input type="number" id="item-price" placeholder="Harga Item" required>
+                <button type="submit">Simpan</button>
+            </form>
+            
+            <!-- Daftar Nilai -->
+             <h2>Daftar Item</h2>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Deskripsi</th>
+                        <th>Harga</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="items-table"></tbody>
+            </table>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
