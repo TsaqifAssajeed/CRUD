@@ -3,6 +3,8 @@ tugas kuliah CRUD
 
 to run it `node app.js`
 
+
+
 • POST `/api/items` - Add items. 
 
 • GET `/api/items` - View all items. 
@@ -12,3 +14,6 @@ to run it `node app.js`
 • PUT `/api/items/:id` - Update items. 
 
 • DELETE `/api/items/:id` - Delete an item.
+
+
+enjoy:)
