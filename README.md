@@ -1,8 +1,7 @@
 # CRUD
 tugas kuliah CRUD
 
-to run it `node app.js`
-
+• RUN `node app.js`
 
 
 • POST `/api/items` - Add items. 
@@ -16,4 +15,4 @@ to run it `node app.js`
 • DELETE `/api/items/:id` - Delete an item.
 
 
-enjoy:)
+enjoy :)
